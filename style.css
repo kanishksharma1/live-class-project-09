@@ -1,0 +1,491 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+body,html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* -----1ST SECTION---- */
+
+header {
+  background-color: #3944f7;
+  height: 500px;
+}
+
+.header-image {
+  position: relative;
+  bottom: 330px;
+  left: 780px;
+  background-attachment: fixed;
+}
+
+
+.header-text {
+  display: inline-block;
+  color: #fff;
+  width: 50%;
+  font-size: 28px;
+  margin-left: 75px;
+  margin-top: 80px;
+}
+.header-text p{
+  font-size: 70%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin-top: 25px;
+  margin-left: 40px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+.nav-item-active:hover {
+  cursor: pointer;
+}
+
+.nav-item-active {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 12px;
+  color: #3944f7;
+  background-color: #fff;
+  padding: 6px 10px 6px 10px;
+  border-radius: 3px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 40px;
+  padding: 20px 0px 0px 40px;
+}
+
+/* ----2ND SECTION----- */
+
+.companies {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.company-items {
+  margin-left: 35px;
+  font-size: 25px;
+  color: black;
+  font-family: "Righteous";
+  text-decoration: none;
+}
+.api {
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.cards {
+  margin-top: 60px;
+  position: relative;
+  right: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-logo {
+  margin-bottom: 17px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.card-body {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.card-active {
+  position: relative;
+  bottom: 30px;
+  border-radius: 10px;
+  height: 170px;
+  width: 180px;
+  padding: 34px 28px 28px 28px;
+  background-color: white;
+}
+
+.blog-cards {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 60px;
+margin-right: 130px;
+
+}
+.blog-card {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.blog-heading {
+  margin-top: 60px;
+  margin-left: 72px;
+}
+
+.blog-image {
+  margin-left: 70px;
+}
+
+small {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.blog-content {
+  bottom: 30px;
+  border-radius: 10px;
+  height: 235px;
+  width: 280px;
+  padding: 20px 28px 34px 45px;
+  background-color: white;
+  position: relative;
+  bottom: 15px;
+  top: 0px;
+  font-size: 15px;
+}
+.blog-bottom {
+position: relative;
+left: 360px;
+bottom: 50px;
+}
+.blog-card-bottom-image {
+  border: white 4px solid;
+  border-radius: 50px;
+}
+.blog-author {
+position: relative;
+left: 60px;
+bottom: 20px;
+}
+
+.faq-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  background-color:#c7d6e8;
+  margin-bottom: -7px;
+}
+
+.faq-content{
+  margin-left: 70px;
+  margin-top: 40px;
+
+}
+
+.faq-image  {
+  max-width: 100%;
+  height: auto;
+}
+
+.faq-image img{
+  height: 400px;
+}
+
+.conatct-us{
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+  background:#383CC1 ;
+  padding: 11px 21px 11px 21px;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.conatct-us:hover{
+  cursor: pointer;
+}
+
+.download-section{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 270px;
+  align-content: center;
+}
+
+input{
+  width: 600px;
+  height: 0px;
+  background-color:#c7d6e8;
+  font-size: 14px;
+  color: black;
+  border-radius: 30px;
+  border: none;
+  padding: 30px 20px 30px 45px; 
+  z-index: -1;
+}
+
+.download{
+  width: 200px;
+  height:50px;
+  background-color:#383CC1;
+  font-size: 14px;
+  color: black;
+  border-radius: 28px;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  right: 210px;
+  cursor: pointer;
+}
+
+.download-content{
+  position: relative;
+  top:120px;
+  left: 10px;
+  height: 60px;
+
+}
+
+.download-email{
+  position: relative;
+  top:120px;
+  left: 230px;
+  height: 60px;
+}
+
+.footer-section{
+  background-color: #3944f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 260px;
+  text-align: center;
+
+}
+.logos-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 45%;
+  right: 15%;
+  color: white;
+}
+
+.list-items{
+  margin-right: 60px;
+  font-size: 12px;
+}
+.footer-logo{
+  position: relative;
+  top: 80px;
+  right: 270px;
+}
+
+.footer-logos{
+ position: relative;
+ bottom: 90%;
+ margin-right: 30px;
+ cursor: pointer;
+}
+
+.footer-right{
+  height: 50%;
+  position: relative;
+  top: 40%;
+  left: 5%;
+  color: #fff;
+}
+
+.list-items{
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:1300px){
+  .blog-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .faq-image{
+    display: none;
+  }
+
+
+  .header-image {
+    width: 30%;
+  }
+
+
+ 
+}
+
+
+@media screen and (max-width:1200px) {
+
+  .header-image{
+  display: none;
+  }
+
+  .header-text h2{
+    font-size: 70%;
+  }
+
+  .header-text p{
+    font-size: 50%;
+  }
+  .companies{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company-items{
+    margin-top: 20px;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.card-active{
+  margin-top: 20px;
+}
+
+.blog-cards{
+  display: grid;
+}
+.download-content{
+  font-size: 70%;
+}
+
+form input{
+  margin-right: 450px;
+  width: 50%;
+}
+
+form button{
+ margin-left: 32%;
+ margin-top: 30px; 
+}
+
+.list{
+  display: flex;
+  flex-direction: column; 
+  margin-top: -70px;
+}
+
+.list-items{
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+
+
+}
+
+
+@media screen and (max-width:900px) {
+  .header-text p{
+    font-size: 40%;
+    width: 50%;
+  }
+
+  .header-text h2{
+    font-size: 50%;
+    width: 40%;
+  }
+
+  header nav{
+    margin-right: 10px;
+  }
+
+  .company-items{
+    margin-top: 20px;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.card-active{
+  margin-top: 30px;
+}
+
+.blog-content{
+  margin-left: 40px;
+}
+
+
+.download-content{
+  display: none;
+}
+}
+
+@media screen and (max-width:700px) {
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.card-active{
+  margin-top: 50px;
+}
+
+.download-content{
+  display: none;
+}
+
+form input{
+  margin-right: 800px;
+  width: 30%;
+}
+
+form button{
+ margin-left: 32%;
+ margin-top: 30px; 
+}
+
+.blog-content{
+  position: relative;
+  right: 380px;
+}
+
+.blog-card-bottom-image{
+  position: relative;
+  right: 300px;
+}
+
+
+.blog-author b{
+  display: none;
+}
+
+}
+
